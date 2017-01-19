@@ -1,0 +1,33 @@
+{
+  "name": "glvrd-addin",
+  "version": "1.0.0",
+  "description": "",
+  "author": "Dmitry Rogozhny",
+  "license": "ISC",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "typings install"
+  },
+  "devDependencies": {
+    "typescript": "^1.8.10",
+    "typings": "^1.0.5",
+    "webpack": "^1.13.1",
+    "tslint": "^3.11.0",
+    "gulp": "^3.9.1",
+    "gulp-tslint": "^5.0.0",
+    "gulp-typescript": "^2.13.6",
+    "gulp-webserver": "^0.9.1",    
+    "source-map-loader": "^0.1.5",
+    "ts-loader": "^0.8.2"
+  },
+  "dependencies": {
+    "react": "^15.1.0",
+    "react-dom": "^15.1.0",
+    "domready": "^1.0.8",
+    "draft-js": "^0.7.0",
+    "pubsub-js": "^1.5.3",
+    "immutable": "^3.8.1",
+    "i18next": "^3.3.1",
+    "es6-shim": "^0.35.1"
+  }
+}

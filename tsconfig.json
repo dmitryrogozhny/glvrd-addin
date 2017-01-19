@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "outDir": "./dist",     
+        "sourceMap": true,
+        "noImplicitAny": true,
+        "target": "es5",
+        "module": "commonjs",
+        "jsx": "react"
+    },
+    "files" : [
+        "./src/app/index.tsx",
+        "typings/Index.d.ts"
+    ]
+}
