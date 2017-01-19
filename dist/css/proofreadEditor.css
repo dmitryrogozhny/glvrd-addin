@@ -1,0 +1,75 @@
+/* Global add-in styles */
+body {
+    margin: 0;
+}
+
+/* General page styles */
+.editorPage {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 0.9em;
+    line-height: 1.4em;
+}
+
+.displayNone {
+    display: none;
+}
+
+/* Sections styles*/
+.editorSection {
+    max-height: calc(99vh - 150px);
+    overflow-y:auto;
+    overflow-x: hidden;
+
+    padding-left: 15px;
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0px 10px 10px;
+}
+
+.comment-statistics-block {
+    line-height: 300%;
+}
+
+.detailsSection {
+    padding: 10px;
+}
+
+.statisticsSection-number {
+    font-size: 32px;
+
+    float: left;
+    height: 40px;
+    padding-right: 5px;
+    padding-top: 5px;
+}
+
+.statisticsSection-description {
+    line-height: 120%;
+}
+
+.statisticsSection-description--singleLine {
+    padding-top: 15px;
+}
+
+.commentsSection {
+    padding-right: 10px;
+}
+
+/*  Editor styles */
+.comment-underline {
+    color: #dA570f;
+    background: url(//api.glvrd.ru/static/underline.svg) 0 100% repeat-x;
+
+    border-radius: .2em;
+    padding: 3px 2px;
+    margin: 0 -2px;
+
+    transition: background-color .25s, color .25s;
+}
+
+.comment-underline:hover {
+    transition: background-color 0s, color 0s;
+    background: #DA570F;
+    color: #fff;
+
+    transition: background-color .25s, color .25s;
+}
